@@ -11,9 +11,9 @@ int main(){
         n=n/10;
     }
     if(original==reverse)
-        cout<<"it is pallindrone"<<endl;
+        cout<<"it is pallindrome"<<endl;
     
     else
-        cout<<"this is not a pallindrone"<<endl;
-    
+        cout<<"this is not a pallindrome"<<endl;
+    return 0;
 }
