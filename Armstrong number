@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n,original,i=0,d,g,e=0,f;
+    cout<<"Enter the number: ";
+    cin>>n;
+    original=f=n;
+    while(n>0){
+        d=n%10;
+        i+=1;
+        n=n/10;
+    }
+    cout<<"the number of digit in the given number is: "<<i<<endl;
+    while(original>0){
+        g=original%10;
+        e+=pow(g,i);
+        original=original/10;
+    }
+    if(e==f)
+        cout<<"it is armstrong number...";
+    else
+        cout<<"it is not a armstrong number";
+    return 0;
+}
