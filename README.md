@@ -19,6 +19,7 @@ tackling some easy and important problem of cpp
 - Palindrome Number
 - Armstrong Number
 - Prime Number
+- reverse_number
 
 ## How to Run
 Compile the program using:
