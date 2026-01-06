@@ -31,3 +31,8 @@ Run the executable:
 ## String Programs
 - Reverse String
 - Count Vowels in a String
+
+## Array Programs
+- Maximum and Minimum in Array
+- Sum of Array Elements
+- Frequency of Elements
