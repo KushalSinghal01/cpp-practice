@@ -36,3 +36,8 @@ Run the executable:
 - Maximum and Minimum in Array
 - Sum of Array Elements
 - Frequency of Elements
+
+## Searching and Sorting Programs
+- Linear Search
+- Binary Search
+- Bubble Sort
