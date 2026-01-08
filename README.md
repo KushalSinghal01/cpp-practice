@@ -41,3 +41,9 @@ Run the executable:
 - Linear Search
 - Binary Search
 - Bubble Sort
+
+- ## STL Programs
+- Sort using vector
+- Reverse vector
+- Count element frequency
+
