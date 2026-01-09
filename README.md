@@ -47,3 +47,8 @@ Run the executable:
 - Reverse vector
 - Count element frequency
 
+## Advanced String Programs
+- Palindrome String
+- Anagram Check
+- Character Frequency
+
