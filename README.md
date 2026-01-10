@@ -52,3 +52,6 @@ Run the executable:
 - Anagram Check
 - Character Frequency
 
+## Function and Recursion Programs
+- Factorial using Recursion
+- Fibonacci using Recursion
