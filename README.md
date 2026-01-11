@@ -55,3 +55,7 @@ Run the executable:
 ## Function and Recursion Programs
 - Factorial using Recursion
 - Fibonacci using Recursion
+
+## Pointer Programs
+- Basic Pointer Example
+- Pointer with Array
