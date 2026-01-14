@@ -69,3 +69,17 @@ Run the executable:
 - Polymorphism using Virtual Function
 
 
+## About This Repository
+This repository contains C++ programs created during daily practice.
+The goal is to strengthen fundamentals, learn STL, and prepare for
+open-source contributions.
+
+## Folder Structure
+- numbers: Basic number programs
+- strings: String-based problems
+- arrays: Array operations
+- searching_sorting: Searching and sorting algorithms
+- stl: Programs using C++ STL
+- functions: Function and recursion programs
+- pointers: Pointer examples
+- oop: Object-oriented programming examples
