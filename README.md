@@ -87,3 +87,9 @@ open-source contributions.
 ## File Handling Programs
 - Write data to file
 - Read data from file
+
+## Exception Handling Programs
+- Divide by Zero Handling
+- Age Validation using Exception
+- Multiple Catch Example
+
