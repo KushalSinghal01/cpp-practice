@@ -93,3 +93,8 @@ open-source contributions.
 - Age Validation using Exception
 - Multiple Catch Example
 
+## Map and Set Programs
+- Unique Elements using Set
+- Frequency Counter using Map
+- Character Frequency using Map
+
