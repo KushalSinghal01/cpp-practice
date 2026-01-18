@@ -98,3 +98,7 @@ open-source contributions.
 - Frequency Counter using Map
 - Character Frequency using Map
 
+## Time Complexity & Optimization
+- Big-O Quick Notes
+- Optimized Frequency using Unordered Map
+
