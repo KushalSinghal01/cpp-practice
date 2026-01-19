@@ -102,3 +102,6 @@ open-source contributions.
 - Big-O Quick Notes
 - Optimized Frequency using Unordered Map
 
+## Mini Projects
+- Number Utilities (Menu Driven Program)
+
