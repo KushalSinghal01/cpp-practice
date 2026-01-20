@@ -104,4 +104,11 @@ open-source contributions.
 
 ## Mini Projects
 - Number Utilities (Menu Driven Program)
+### Number Utilities Features
+- Reverse a number
+- Palindrome check
+- Prime check
+- Armstrong check
+- Sum of digits
+- Even/Odd check
 
