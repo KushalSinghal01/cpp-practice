@@ -32,15 +32,30 @@ bool isArmstrong(int n) {
     return sum == n;
 }
 
+int sumOfDigits(int n) {
+    int sum = 0;
+    while (n > 0) {
+        sum += (n % 10);
+        n /= 10;
+    }
+    return sum;
+}
+
+bool isEven(int n) {
+    return n % 2 == 0;
+}
+
 int main() {
     int choice, n;
 
     do {
-        cout << "\n====== Number Utilities Menu ======\n";
+        cout << "\n========== Number Utilities ==========\n";
         cout << "1. Reverse a number\n";
         cout << "2. Check Palindrome\n";
         cout << "3. Check Prime\n";
         cout << "4. Check Armstrong\n";
+        cout << "5. Sum of Digits\n";
+        cout << "6. Check Even/Odd\n";
         cout << "0. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
@@ -50,8 +65,18 @@ int main() {
             break;
         }
 
+        if (choice < 0 || choice > 6) {
+            cout << "Invalid choice! Please try again.\n";
+            continue;
+        }
+
         cout << "Enter a number: ";
         cin >> n;
+
+        if (n < 0) {
+            cout << "Please enter a positive number.\n";
+            continue;
+        }
 
         switch (choice) {
             case 1:
@@ -59,31 +84,27 @@ int main() {
                 break;
 
             case 2:
-                if (isPalindrome(n))
-                    cout << "Palindrome number\n";
-                else
-                    cout << "Not a palindrome number\n";
+                cout << (isPalindrome(n) ? "Palindrome number\n" : "Not a palindrome number\n");
                 break;
 
             case 3:
-                if (isPrime(n))
-                    cout << "Prime number\n";
-                else
-                    cout << "Not a prime number\n";
+                cout << (isPrime(n) ? "Prime number\n" : "Not a prime number\n");
                 break;
 
             case 4:
-                if (isArmstrong(n))
-                    cout << "Armstrong number\n";
-                else
-                    cout << "Not an Armstrong number\n";
+                cout << (isArmstrong(n) ? "Armstrong number\n" : "Not an Armstrong number\n");
                 break;
 
-            default:
-                cout << "Invalid choice! Try again.\n";
+            case 5:
+                cout << "Sum of digits: " << sumOfDigits(n) << endl;
+                break;
+
+            case 6:
+                cout << (isEven(n) ? "Even number\n" : "Odd number\n");
+                break;
         }
 
-    } while (choice != 0);
+    } while (true);
 
     return 0;
 }
