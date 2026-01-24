@@ -34,4 +34,9 @@ g++ filename.cpp
 Run:
 ./a.out
 
+## Day 24 - Arrays & Searching
+- Linear Search
+- Maximum and Minimum in Array
+- Second Largest Element
+
 
