@@ -40,3 +40,7 @@ Run:
 - Second Largest Element
 
 
+## Day 26 - STL Advanced
+- Remove Duplicates using Set
+- Sort Vector using STL Sort
+- Frequency Count using Map
