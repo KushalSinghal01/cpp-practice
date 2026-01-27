@@ -44,3 +44,9 @@ Run:
 - Remove Duplicates using Set
 - Sort Vector using STL Sort
 - Frequency Count using Map
+
+## Learning Progress
+- Core C++ fundamentals
+- STL (vector, map, set)
+- Git & GitHub workflow
+- Open source contribution (PR raised)
